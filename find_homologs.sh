@@ -9,3 +9,5 @@ tblastn -query "$query" -subject "$subject" \
 awk '$3 > 30 && $4 > 0.90 * $5' > "$output"
 
 wc -l < "$output"
+
+#testing revert
